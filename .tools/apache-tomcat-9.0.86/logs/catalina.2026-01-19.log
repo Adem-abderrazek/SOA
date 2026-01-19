@@ -1,0 +1,334 @@
+19-Jan-2026 13:15:20.781 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/9.0.86
+19-Jan-2026 13:15:20.783 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Feb 14 2024 08:15:12 UTC
+19-Jan-2026 13:15:20.784 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               9.0.86.0
+19-Jan-2026 13:15:20.784 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Windows 11
+19-Jan-2026 13:15:20.784 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.0
+19-Jan-2026 13:15:20.784 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     amd64
+19-Jan-2026 13:15:20.784 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        C:\Program Files\Eclipse Adoptium\jdk-17.0.17.10-hotspot
+19-Jan-2026 13:15:20.784 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      17.0.17+10
+19-Jan-2026 13:15:20.784 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Eclipse Adoptium
+19-Jan-2026 13:15:20.787 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86
+19-Jan-2026 13:15:20.787 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86
+19-Jan-2026 13:15:20.796 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+19-Jan-2026 13:15:20.796 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+19-Jan-2026 13:15:20.796 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util=ALL-UNNAMED
+19-Jan-2026 13:15:20.797 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+19-Jan-2026 13:15:20.797 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+19-Jan-2026 13:15:20.797 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86\conf\logging.properties
+19-Jan-2026 13:15:20.797 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Jan-2026 13:15:20.797 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djdk.tls.ephemeralDHKeySize=2048
+19-Jan-2026 13:15:20.797 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Jan-2026 13:15:20.797 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dignore.endorsed.dirs=
+19-Jan-2026 13:15:20.797 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86
+19-Jan-2026 13:15:20.797 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86
+19-Jan-2026 13:15:20.798 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86\temp
+19-Jan-2026 13:15:20.800 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Chargement de la librairie Apache Tomcat Native [1.3.0] en utilisant APR version [1.7.4]
+19-Jan-2026 13:15:20.801 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Fonctionnalités d'APR : IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true]
+19-Jan-2026 13:15:20.801 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Configuration de APR/OpenSSL : useAprConnector [false], useOpenSSL [true]
+19-Jan-2026 13:15:20.808 INFOS [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL a été initialisé avec succès [OpenSSL 3.0.13 30 Jan 2024]
+19-Jan-2026 13:15:21.044 INFOS [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+19-Jan-2026 13:15:21.060 GRAVE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Echec d'initialisation du composant [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: L'initialisation du gestionnaire de protocole a échoué
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1011)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:554)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1046)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:686)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:709)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+	Caused by: java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:555)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:276)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:231)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1334)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1347)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:654)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:75)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1009)
+		... 13 more
+19-Jan-2026 13:15:21.060 INFOS [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [465] millisecondes
+19-Jan-2026 13:15:21.113 INFOS [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+19-Jan-2026 13:15:21.113 INFOS [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/9.0.86]
+19-Jan-2026 13:15:21.135 INFOS [main] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86\webapps\testrest.war] de l'application web
+19-Jan-2026 13:15:21.890 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+19-Jan-2026 13:15:21.983 INFOS [main] com.sun.jersey.api.core.PackagesResourceConfig.init Scanning for root resource and provider classes in the packages:
+  com.poly
+19-Jan-2026 13:15:22.016 INFOS [main] com.sun.jersey.api.core.ScanningResourceConfig.logClasses Root resource classes found:
+  class com.poly.RestRouter
+19-Jan-2026 13:15:22.016 INFOS [main] com.sun.jersey.api.core.ScanningResourceConfig.init No provider classes found.
+19-Jan-2026 13:15:22.131 INFOS [main] com.sun.jersey.server.impl.application.WebApplicationImpl._initiate Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM'
+19-Jan-2026 13:15:23.045 INFOS [main] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86\webapps\testrest.war] s'est terminé en [1 910] ms
+19-Jan-2026 13:15:23.046 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86\webapps\docs]
+19-Jan-2026 13:15:23.081 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86\webapps\docs] de l'application web s'est terminé en [35] ms
+19-Jan-2026 13:15:23.082 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86\webapps\examples]
+19-Jan-2026 13:15:23.404 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86\webapps\examples] de l'application web s'est terminé en [323] ms
+19-Jan-2026 13:15:23.405 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86\webapps\host-manager]
+19-Jan-2026 13:15:23.441 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86\webapps\host-manager] de l'application web s'est terminé en [36] ms
+19-Jan-2026 13:15:23.441 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86\webapps\manager]
+19-Jan-2026 13:15:23.470 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86\webapps\manager] de l'application web s'est terminé en [29] ms
+19-Jan-2026 13:15:23.470 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86\webapps\ROOT]
+19-Jan-2026 13:15:23.494 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86\webapps\ROOT] de l'application web s'est terminé en [24] ms
+19-Jan-2026 13:15:23.499 INFOS [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [2438] millisecondes
+19-Jan-2026 13:18:37.835 INFOS [main] org.apache.catalina.core.StandardServer.await Une commande d'arrêt valide a été reçue sur le port d'arrêt, arrêt de l'instance du serveur
+19-Jan-2026 13:18:37.835 INFOS [main] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+19-Jan-2026 13:18:37.837 INFOS [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+19-Jan-2026 13:18:38.431 INFOS [main] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["http-nio-8080"]
+19-Jan-2026 13:18:38.433 INFOS [main] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8080"]
+19-Jan-2026 13:19:13.735 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/9.0.86
+19-Jan-2026 13:19:13.738 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Feb 14 2024 08:15:12 UTC
+19-Jan-2026 13:19:13.739 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               9.0.86.0
+19-Jan-2026 13:19:13.739 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Windows 11
+19-Jan-2026 13:19:13.739 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.0
+19-Jan-2026 13:19:13.739 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     amd64
+19-Jan-2026 13:19:13.739 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        C:\Program Files\Eclipse Adoptium\jdk-17.0.17.10-hotspot
+19-Jan-2026 13:19:13.740 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      17.0.17+10
+19-Jan-2026 13:19:13.740 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Eclipse Adoptium
+19-Jan-2026 13:19:13.740 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86
+19-Jan-2026 13:19:13.740 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86
+19-Jan-2026 13:19:13.750 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+19-Jan-2026 13:19:13.750 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+19-Jan-2026 13:19:13.750 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util=ALL-UNNAMED
+19-Jan-2026 13:19:13.750 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+19-Jan-2026 13:19:13.752 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+19-Jan-2026 13:19:13.752 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86\conf\logging.properties
+19-Jan-2026 13:19:13.752 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Jan-2026 13:19:13.752 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djdk.tls.ephemeralDHKeySize=2048
+19-Jan-2026 13:19:13.752 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Jan-2026 13:19:13.753 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dignore.endorsed.dirs=
+19-Jan-2026 13:19:13.753 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86
+19-Jan-2026 13:19:13.753 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86
+19-Jan-2026 13:19:13.753 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86\temp
+19-Jan-2026 13:19:13.756 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Chargement de la librairie Apache Tomcat Native [1.3.0] en utilisant APR version [1.7.4]
+19-Jan-2026 13:19:13.756 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Fonctionnalités d'APR : IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true]
+19-Jan-2026 13:19:13.756 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Configuration de APR/OpenSSL : useAprConnector [false], useOpenSSL [true]
+19-Jan-2026 13:19:13.763 INFOS [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL a été initialisé avec succès [OpenSSL 3.0.13 30 Jan 2024]
+19-Jan-2026 13:19:13.985 INFOS [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8081"]
+19-Jan-2026 13:19:14.001 GRAVE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Echec d'initialisation du composant [Connector["http-nio-8081"]]
+	org.apache.catalina.LifecycleException: L'initialisation du gestionnaire de protocole a échoué
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1011)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:554)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1046)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:686)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:709)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+	Caused by: java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:555)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:276)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:231)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1334)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1347)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:654)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:75)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1009)
+		... 13 more
+19-Jan-2026 13:19:14.002 INFOS [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [450] millisecondes
+19-Jan-2026 13:19:14.044 INFOS [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+19-Jan-2026 13:19:14.044 INFOS [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/9.0.86]
+19-Jan-2026 13:19:14.060 INFOS [main] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86\webapps\testrest.war] de l'application web
+19-Jan-2026 13:19:14.079 INFOS [main] org.apache.catalina.startup.ExpandWar.expand Un répertoire décompressé [C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86\webapps\testrest] a été trouvé avec une date de dernière modification qui ne correspond pas au WAR associé, il sera effacé
+19-Jan-2026 13:19:14.834 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+19-Jan-2026 13:19:14.917 INFOS [main] com.sun.jersey.api.core.PackagesResourceConfig.init Scanning for root resource and provider classes in the packages:
+  com.poly
+19-Jan-2026 13:19:14.949 INFOS [main] com.sun.jersey.api.core.ScanningResourceConfig.logClasses Root resource classes found:
+  class com.poly.RestRouter
+19-Jan-2026 13:19:14.950 INFOS [main] com.sun.jersey.api.core.ScanningResourceConfig.init No provider classes found.
+19-Jan-2026 13:19:15.051 INFOS [main] com.sun.jersey.server.impl.application.WebApplicationImpl._initiate Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM'
+19-Jan-2026 13:19:15.918 INFOS [main] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86\webapps\testrest.war] s'est terminé en [1 858] ms
+19-Jan-2026 13:19:15.918 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86\webapps\docs]
+19-Jan-2026 13:19:15.951 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86\webapps\docs] de l'application web s'est terminé en [33] ms
+19-Jan-2026 13:19:15.951 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86\webapps\examples]
+19-Jan-2026 13:19:16.268 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86\webapps\examples] de l'application web s'est terminé en [316] ms
+19-Jan-2026 13:19:16.268 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86\webapps\host-manager]
+19-Jan-2026 13:19:16.303 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86\webapps\host-manager] de l'application web s'est terminé en [35] ms
+19-Jan-2026 13:19:16.304 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86\webapps\manager]
+19-Jan-2026 13:19:16.341 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86\webapps\manager] de l'application web s'est terminé en [37] ms
+19-Jan-2026 13:19:16.341 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86\webapps\ROOT]
+19-Jan-2026 13:19:16.366 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86\webapps\ROOT] de l'application web s'est terminé en [24] ms
+19-Jan-2026 13:19:16.372 INFOS [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [2369] millisecondes
+19-Jan-2026 13:20:26.954 GRAVE [main] org.apache.catalina.startup.Catalina.stopServer Impossible de se connecter à [localhost : 8005] (port de base [8005] et offset [0]), Tomcat peut ne pas être en cours d'exécution
+19-Jan-2026 13:20:36.425 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/9.0.86
+19-Jan-2026 13:20:36.428 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Feb 14 2024 08:15:12 UTC
+19-Jan-2026 13:20:36.429 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               9.0.86.0
+19-Jan-2026 13:20:36.429 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Windows 11
+19-Jan-2026 13:20:36.429 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.0
+19-Jan-2026 13:20:36.429 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     amd64
+19-Jan-2026 13:20:36.429 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        C:\Program Files\Eclipse Adoptium\jdk-17.0.17.10-hotspot
+19-Jan-2026 13:20:36.429 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      17.0.17+10
+19-Jan-2026 13:20:36.429 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Eclipse Adoptium
+19-Jan-2026 13:20:36.429 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86
+19-Jan-2026 13:20:36.430 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86
+19-Jan-2026 13:20:36.440 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+19-Jan-2026 13:20:36.440 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+19-Jan-2026 13:20:36.440 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util=ALL-UNNAMED
+19-Jan-2026 13:20:36.440 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+19-Jan-2026 13:20:36.440 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+19-Jan-2026 13:20:36.440 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86\conf\logging.properties
+19-Jan-2026 13:20:36.440 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Jan-2026 13:20:36.441 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djdk.tls.ephemeralDHKeySize=2048
+19-Jan-2026 13:20:36.441 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Jan-2026 13:20:36.441 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dignore.endorsed.dirs=
+19-Jan-2026 13:20:36.441 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86
+19-Jan-2026 13:20:36.441 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86
+19-Jan-2026 13:20:36.441 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86\temp
+19-Jan-2026 13:20:36.445 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Chargement de la librairie Apache Tomcat Native [1.3.0] en utilisant APR version [1.7.4]
+19-Jan-2026 13:20:36.445 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Fonctionnalités d'APR : IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true]
+19-Jan-2026 13:20:36.445 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Configuration de APR/OpenSSL : useAprConnector [false], useOpenSSL [true]
+19-Jan-2026 13:20:36.450 INFOS [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL a été initialisé avec succès [OpenSSL 3.0.13 30 Jan 2024]
+19-Jan-2026 13:20:36.663 INFOS [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-9090"]
+19-Jan-2026 13:20:36.692 INFOS [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [451] millisecondes
+19-Jan-2026 13:20:36.740 INFOS [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+19-Jan-2026 13:20:36.740 INFOS [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/9.0.86]
+19-Jan-2026 13:20:36.758 INFOS [main] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86\webapps\testrest.war] de l'application web
+19-Jan-2026 13:20:37.636 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+19-Jan-2026 13:20:37.739 INFOS [main] com.sun.jersey.api.core.PackagesResourceConfig.init Scanning for root resource and provider classes in the packages:
+  com.poly
+19-Jan-2026 13:20:37.801 INFOS [main] com.sun.jersey.api.core.ScanningResourceConfig.logClasses Root resource classes found:
+  class com.poly.RestRouter
+19-Jan-2026 13:20:37.801 INFOS [main] com.sun.jersey.api.core.ScanningResourceConfig.init No provider classes found.
+19-Jan-2026 13:20:37.928 INFOS [main] com.sun.jersey.server.impl.application.WebApplicationImpl._initiate Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM'
+19-Jan-2026 13:20:39.167 INFOS [main] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86\webapps\testrest.war] s'est terminé en [2 409] ms
+19-Jan-2026 13:20:39.171 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86\webapps\docs]
+19-Jan-2026 13:20:39.227 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86\webapps\docs] de l'application web s'est terminé en [55] ms
+19-Jan-2026 13:20:39.227 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86\webapps\examples]
+19-Jan-2026 13:20:39.650 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86\webapps\examples] de l'application web s'est terminé en [423] ms
+19-Jan-2026 13:20:39.651 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86\webapps\host-manager]
+19-Jan-2026 13:20:39.693 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86\webapps\host-manager] de l'application web s'est terminé en [42] ms
+19-Jan-2026 13:20:39.693 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86\webapps\manager]
+19-Jan-2026 13:20:39.733 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86\webapps\manager] de l'application web s'est terminé en [39] ms
+19-Jan-2026 13:20:39.734 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86\webapps\ROOT]
+19-Jan-2026 13:20:39.769 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86\webapps\ROOT] de l'application web s'est terminé en [35] ms
+19-Jan-2026 13:20:39.777 INFOS [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-9090"]
+19-Jan-2026 13:20:39.812 INFOS [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [3119] millisecondes
+19-Jan-2026 13:41:08.895 INFOS [main] org.apache.catalina.core.StandardServer.await Une commande d'arrêt valide a été reçue sur le port d'arrêt, arrêt de l'instance du serveur
+19-Jan-2026 13:41:08.896 INFOS [main] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-9090"] est mis en pause
+19-Jan-2026 13:41:08.905 INFOS [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+19-Jan-2026 13:41:08.940 INFOS [main] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["http-nio-9090"]
+19-Jan-2026 13:41:08.951 INFOS [main] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-9090"]
+19-Jan-2026 13:41:09.895 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/9.0.86
+19-Jan-2026 13:41:09.898 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Feb 14 2024 08:15:12 UTC
+19-Jan-2026 13:41:09.898 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               9.0.86.0
+19-Jan-2026 13:41:09.900 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Windows 11
+19-Jan-2026 13:41:09.900 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.0
+19-Jan-2026 13:41:09.900 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     amd64
+19-Jan-2026 13:41:09.900 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        C:\Program Files\Eclipse Adoptium\jdk-17.0.17.10-hotspot
+19-Jan-2026 13:41:09.900 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      17.0.17+10
+19-Jan-2026 13:41:09.900 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Eclipse Adoptium
+19-Jan-2026 13:41:09.900 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86
+19-Jan-2026 13:41:09.900 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86
+19-Jan-2026 13:41:09.909 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+19-Jan-2026 13:41:09.910 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+19-Jan-2026 13:41:09.911 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util=ALL-UNNAMED
+19-Jan-2026 13:41:09.911 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+19-Jan-2026 13:41:09.911 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+19-Jan-2026 13:41:09.911 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86\conf\logging.properties
+19-Jan-2026 13:41:09.912 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Jan-2026 13:41:09.912 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djdk.tls.ephemeralDHKeySize=2048
+19-Jan-2026 13:41:09.912 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Jan-2026 13:41:09.912 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dignore.endorsed.dirs=
+19-Jan-2026 13:41:09.912 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86
+19-Jan-2026 13:41:09.912 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86
+19-Jan-2026 13:41:09.912 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86\temp
+19-Jan-2026 13:41:09.916 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Chargement de la librairie Apache Tomcat Native [1.3.0] en utilisant APR version [1.7.4]
+19-Jan-2026 13:41:09.916 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Fonctionnalités d'APR : IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true]
+19-Jan-2026 13:41:09.916 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Configuration de APR/OpenSSL : useAprConnector [false], useOpenSSL [true]
+19-Jan-2026 13:41:09.921 INFOS [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL a été initialisé avec succès [OpenSSL 3.0.13 30 Jan 2024]
+19-Jan-2026 13:41:10.136 INFOS [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-9090"]
+19-Jan-2026 13:41:10.163 INFOS [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [442] millisecondes
+19-Jan-2026 13:41:10.209 INFOS [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+19-Jan-2026 13:41:10.209 INFOS [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/9.0.86]
+19-Jan-2026 13:41:10.224 INFOS [main] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86\webapps\testrest.war] de l'application web
+19-Jan-2026 13:41:10.245 INFOS [main] org.apache.catalina.startup.ExpandWar.expand Un répertoire décompressé [C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86\webapps\testrest] a été trouvé avec une date de dernière modification qui ne correspond pas au WAR associé, il sera effacé
+19-Jan-2026 13:41:10.845 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+19-Jan-2026 13:41:10.935 INFOS [main] com.sun.jersey.api.core.PackagesResourceConfig.init Scanning for root resource and provider classes in the packages:
+  com.poly
+19-Jan-2026 13:41:10.964 INFOS [main] com.sun.jersey.api.core.ScanningResourceConfig.logClasses Root resource classes found:
+  class com.poly.RestRouter
+19-Jan-2026 13:41:10.965 INFOS [main] com.sun.jersey.api.core.ScanningResourceConfig.init No provider classes found.
+19-Jan-2026 13:41:11.058 INFOS [main] com.sun.jersey.server.impl.application.WebApplicationImpl._initiate Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM'
+19-Jan-2026 13:41:11.914 INFOS [main] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86\webapps\testrest.war] s'est terminé en [1 690] ms
+19-Jan-2026 13:41:11.915 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86\webapps\docs]
+19-Jan-2026 13:41:11.942 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86\webapps\docs] de l'application web s'est terminé en [27] ms
+19-Jan-2026 13:41:11.942 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86\webapps\examples]
+19-Jan-2026 13:41:12.248 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86\webapps\examples] de l'application web s'est terminé en [305] ms
+19-Jan-2026 13:41:12.248 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86\webapps\host-manager]
+19-Jan-2026 13:41:12.286 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86\webapps\host-manager] de l'application web s'est terminé en [38] ms
+19-Jan-2026 13:41:12.287 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86\webapps\manager]
+19-Jan-2026 13:41:12.325 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86\webapps\manager] de l'application web s'est terminé en [38] ms
+19-Jan-2026 13:41:12.325 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86\webapps\ROOT]
+19-Jan-2026 13:41:12.345 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86\webapps\ROOT] de l'application web s'est terminé en [20] ms
+19-Jan-2026 13:41:12.350 INFOS [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-9090"]
+19-Jan-2026 13:41:12.380 INFOS [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [2216] millisecondes
+19-Jan-2026 13:42:14.937 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/9.0.86
+19-Jan-2026 13:42:14.939 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Feb 14 2024 08:15:12 UTC
+19-Jan-2026 13:42:14.940 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               9.0.86.0
+19-Jan-2026 13:42:14.940 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Windows 11
+19-Jan-2026 13:42:14.940 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.0
+19-Jan-2026 13:42:14.940 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     amd64
+19-Jan-2026 13:42:14.940 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        C:\Program Files\Eclipse Adoptium\jdk-17.0.17.10-hotspot
+19-Jan-2026 13:42:14.940 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      17.0.17+10
+19-Jan-2026 13:42:14.940 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Eclipse Adoptium
+19-Jan-2026 13:42:14.941 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86
+19-Jan-2026 13:42:14.941 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86
+19-Jan-2026 13:42:14.951 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+19-Jan-2026 13:42:14.951 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+19-Jan-2026 13:42:14.951 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util=ALL-UNNAMED
+19-Jan-2026 13:42:14.951 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+19-Jan-2026 13:42:14.951 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+19-Jan-2026 13:42:14.951 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86\conf\logging.properties
+19-Jan-2026 13:42:14.951 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Jan-2026 13:42:14.952 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djdk.tls.ephemeralDHKeySize=2048
+19-Jan-2026 13:42:14.952 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Jan-2026 13:42:14.952 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dignore.endorsed.dirs=
+19-Jan-2026 13:42:14.952 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86
+19-Jan-2026 13:42:14.952 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86
+19-Jan-2026 13:42:14.952 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86\temp
+19-Jan-2026 13:42:14.956 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Chargement de la librairie Apache Tomcat Native [1.3.0] en utilisant APR version [1.7.4]
+19-Jan-2026 13:42:14.956 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Fonctionnalités d'APR : IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true]
+19-Jan-2026 13:42:14.956 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Configuration de APR/OpenSSL : useAprConnector [false], useOpenSSL [true]
+19-Jan-2026 13:42:14.961 INFOS [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL a été initialisé avec succès [OpenSSL 3.0.13 30 Jan 2024]
+19-Jan-2026 13:42:15.165 INFOS [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-9090"]
+19-Jan-2026 13:42:15.193 INFOS [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [451] millisecondes
+19-Jan-2026 13:42:15.243 INFOS [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+19-Jan-2026 13:42:15.244 INFOS [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/9.0.86]
+19-Jan-2026 13:42:15.261 INFOS [main] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86\webapps\testrest.war] de l'application web
+19-Jan-2026 13:42:15.879 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+19-Jan-2026 13:42:15.956 INFOS [main] com.sun.jersey.api.core.PackagesResourceConfig.init Scanning for root resource and provider classes in the packages:
+  com.poly
+19-Jan-2026 13:42:15.986 INFOS [main] com.sun.jersey.api.core.ScanningResourceConfig.logClasses Root resource classes found:
+  class com.poly.RestRouter
+19-Jan-2026 13:42:15.986 INFOS [main] com.sun.jersey.api.core.ScanningResourceConfig.init No provider classes found.
+19-Jan-2026 13:42:16.091 INFOS [main] com.sun.jersey.server.impl.application.WebApplicationImpl._initiate Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM'
+19-Jan-2026 13:42:17.054 INFOS [main] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86\webapps\testrest.war] s'est terminé en [1 794] ms
+19-Jan-2026 13:42:17.055 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86\webapps\docs]
+19-Jan-2026 13:42:17.091 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86\webapps\docs] de l'application web s'est terminé en [36] ms
+19-Jan-2026 13:42:17.092 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86\webapps\examples]
+19-Jan-2026 13:42:17.426 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86\webapps\examples] de l'application web s'est terminé en [335] ms
+19-Jan-2026 13:42:17.427 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86\webapps\host-manager]
+19-Jan-2026 13:42:17.468 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86\webapps\host-manager] de l'application web s'est terminé en [41] ms
+19-Jan-2026 13:42:17.469 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86\webapps\manager]
+19-Jan-2026 13:42:17.504 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86\webapps\manager] de l'application web s'est terminé en [36] ms
+19-Jan-2026 13:42:17.505 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86\webapps\ROOT]
+19-Jan-2026 13:42:17.529 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\adema\Desktop\tp3-jaxrs-frontend\.tools\apache-tomcat-9.0.86\webapps\ROOT] de l'application web s'est terminé en [23] ms
+19-Jan-2026 13:42:17.535 INFOS [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-9090"]
+19-Jan-2026 13:42:17.570 INFOS [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [2377] millisecondes
